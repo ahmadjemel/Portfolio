@@ -58,7 +58,7 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: end;
-    background:url(https://firebasestorage.googleapis.com/v0/b/portfolio-44971.appspot.com/o/1.jpg?alt=media&token=78a40874-5478-42b6-8246-7a472908eaad)  no-repeat ;
+    background:url(image/profil.jpg)  no-repeat ;
     background-attachment:fixed;
     background-position: right center;
     background-size:40%;
