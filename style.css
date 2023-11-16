@@ -432,7 +432,7 @@ margin-top: 20px;
         background:url(https://firebasestorage.googleapis.com/v0/b/portfolio-44971.appspot.com/o/1.jpg?alt=media&token=78a40874-5478-42b6-8246-7a472908eaad)  no-repeat ;
         background-attachment:local;
         background-position:70% 30%;
-        background-size:30% ;
+        background-size:20% ;
         background-clip:content-box;
         font-size: 20vh;
        
@@ -453,7 +453,8 @@ margin-top: 20px;
     #skills .skills-content .row {
         grid-template-columns: repeat(2,1fr);
         transition: all 0.2s ease;
-        width: 90%;
+        width: 100vh;
+        margin-left: 10%;
     }
     #service .container .row {
         grid-template-columns: repeat(1,1fr);
@@ -489,7 +490,7 @@ row-gap: 0.5rem;
     background-color: #000016;
     color: #fff;
     padding: 0.6em;
-    display: ruby-base;
+    display: block;
     justify-content: space-between;
 }
 .footer-title{
@@ -501,7 +502,7 @@ row-gap: 0.5rem;
 }
 .footer-title .social-icons{
     font-size: 0.8em;
-    padding: 0 22px 0 0;
+    padding: 0 18px 0 0;
 }
 
 /*contact*/
@@ -529,7 +530,7 @@ row-gap: 0.5rem;
     transform: scale(1.1);
 }
 .icon i{
-    font-size: 0.7em;
+    font-size: 1em;
     text-align: center;
 }
 .info  h3{
