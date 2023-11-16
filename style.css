@@ -195,11 +195,11 @@ margin-top: 10px;
 #skills .skills-content .row .item{
     color: #0f272d;
     background-color: #fff;
-    margin: 20px;
-    padding: 1rem;
-    border-radius: 10px;
+    margin: 10px;
+    padding: 0.7rem;
+    border-radius: 8px;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 500;
  transition: all 0.3s ease;
     }
     #skills .skills-content .row .item:nth-child(2) img{
@@ -454,7 +454,7 @@ margin-top: 20px;
         grid-template-columns: repeat(2,1fr);
         transition: all 0.2s ease;
         width: 100%;
-        margin-left: 10px;
+        margin: 10px;
     }
     #service .container .row {
         grid-template-columns: repeat(1,1fr);
