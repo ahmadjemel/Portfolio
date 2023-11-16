@@ -453,7 +453,8 @@ margin-top: 20px;
     #skills .skills-content .row {
         grid-template-columns: repeat(2,1fr);
         transition: all 0.2s ease;
-        width: 100vh;
+        width: 100%;
+        margin-left: 10px;
     }
     #service .container .row {
         grid-template-columns: repeat(1,1fr);
