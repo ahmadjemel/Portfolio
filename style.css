@@ -17,6 +17,28 @@
     border-radius: 5px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
 }
+/* error*/
+.error-content {
+  display: block;
+  margin: 80px;
+}
+
+@media (max-width: 767.98px) {
+  .error-content {
+    margin-left: 0;
+  }
+}
+
+.error-content > h3 {
+  font-size: 25px;
+  font-weight: 300;
+}
+
+@media (max-width: 767.98px) {
+   .error-content > h3 {
+    text-align: center;
+  }
+}
 
 header{
 background-color: rgb(200, 239, 255);
