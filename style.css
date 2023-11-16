@@ -412,16 +412,17 @@ margin-top: 20px;
             }
    header .logo{
    font-size: 15px;
-    text-align:justify;
+    text-align:start;
    
     }
     .nav a {
-        display:ruby-base-container;
-        font-weight: 200;
+        display:inline-block;
+        font-weight: 10%;
         font-size: 0.6rem;
         text-decoration: none;
-        padding-left: 1px;
+        padding-left: 0.8px;
         color: rgb(49, 42, 99);
+      
     }
    .main{
         width: 100%;
@@ -430,8 +431,8 @@ margin-top: 20px;
         align-items:normal;
         background:url(https://firebasestorage.googleapis.com/v0/b/portfolio-44971.appspot.com/o/1.jpg?alt=media&token=78a40874-5478-42b6-8246-7a472908eaad)  no-repeat ;
         background-attachment:local;
-        background-position:70% 25%;
-        background-size:20% ;
+        background-position:70% 30%;
+        background-size:30% ;
         background-clip:content-box;
         font-size: 20vh;
        
@@ -446,12 +447,13 @@ margin-top: 20px;
         width: 40;
     }
     #service .container .row img{
-     width: 100%;
+     width: 80%;
         
     }
     #skills .skills-content .row {
         grid-template-columns: repeat(2,1fr);
-     transition: all 0.3s ease;
+        transition: all 0.2s ease;
+        width: 90%;
     }
     #service .container .row {
         grid-template-columns: repeat(1,1fr);
@@ -482,4 +484,65 @@ row-gap: 0.5rem;
         font-size: 1rem;
 
     }
+    /*footer*/
+.footer{
+    background-color: #000016;
+    color: #fff;
+    padding: 0.6em;
+    display: ruby-base;
+    justify-content: space-between;
+}
+.footer-title{
+    font-size: 0.8em;
+    font-weight: 500;
+}
+.footer-title span{
+    color:#3a6cf4 ;
+}
+.footer-title .social-icons{
+    font-size: 0.8em;
+    padding: 0 22px 0 0;
+}
+
+/*contact*/
+#contact .cards-contact {
+    margin: 20px;
+}
+ #contact .cards-contact{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: #21496d;
+    margin: 20px 20px;
+ }
+ .card  {
+    background-color: #fff;
+    width: 21.25rem;
+    box-shadow: 0 5px 75px rgba(1 1 1 / 8%);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 35px;
+    transition: 0.75s ease;
+} 
+.card:hover{
+    transform: scale(1.1);
+}
+.icon i{
+    font-size: 0.7em;
+    text-align: center;
+}
+.info  h3{
+    font-size: 2em;
+    text-align: center;
+}
+.info a{
+    text-decoration: none;
+    text-align: center;
+}
+.info h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 10px;
+}
 }
