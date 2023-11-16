@@ -206,8 +206,8 @@ margin-top: 10px;
         max-width: 30px;
     }
     #skills .skills-content .row .item:hover{
-        box-shadow: 10px 5px  #d4d3d3;
-        transform: scale(1.1);
+        box-shadow: 8px 5px  #d4d3d3;
+        transform: scale(1);
     }
 #skills .row img{
     max-width: 50px;
@@ -447,7 +447,7 @@ margin-top: 20px;
         width: 40;
     }
     #service .container .row img{
-     width: 80%;
+     width: 70%;
         
     }
     #skills .skills-content .row {
