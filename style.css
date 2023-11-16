@@ -159,7 +159,7 @@ section{
       column-gap: 3rem;
  }
  #about .about-content .col-1 h3{
-    font-size: 28px;
+    font-size: 1rem;
     margin-bottom: 20px;
  }
  #about .about-content .col-1 p{
@@ -416,34 +416,34 @@ margin-top: 20px;
    
     }
     .nav a {
-        display:inline-block;
-        font-weight: 500;
+        display:ruby-base-container;
+        font-weight: 200;
         font-size: 0.6rem;
         text-decoration: none;
-        padding-left: 2px;
+        padding-left: 1px;
         color: rgb(49, 42, 99);
     }
-    .main{
+   .main{
         width: 100%;
         min-height: 55px;
         display: flex;
-        align-items: end;
+        align-items:normal;
         background:url(https://firebasestorage.googleapis.com/v0/b/portfolio-44971.appspot.com/o/1.jpg?alt=media&token=78a40874-5478-42b6-8246-7a472908eaad)  no-repeat ;
         background-attachment:local;
-        background-position:right  ;
-        background-size:20vh ;
+        background-position:70% 25%;
+        background-size:20% ;
         background-clip:content-box;
-        font-size: small;
-        margin-right: 10px 10px;
+        font-size: 20vh;
+       
    }
     .main h3{
-        font-size: 1em;
+        font-size: 0.8em;
         text-align: justify;
     
     }
     .main a{
         position: center;
-        width: 50;
+        width: 40;
     }
     #service .container .row img{
      width: 100%;
@@ -471,12 +471,15 @@ grid-template-columns: 1fr;
 row-gap: 0.5rem;
     }
     .btn{
-        font-size: 16px;
+        font-size: 10px;
     }
     .btn:hover{
         background-color:#2f6696 ;
-        transform: scale(1.1);
-        letter-spacing: 1.2px;
+        transform: scale(1);
+        letter-spacing: 1.1px;
     }
-    
+    *{
+        font-size: 1rem;
+
+    }
 }
